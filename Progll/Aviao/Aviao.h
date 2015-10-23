@@ -4,6 +4,7 @@
 #include <iostream>
 using std::cout;
 using std::endl;
+using namespace std;
 
 #include <string>
 using std::string;
@@ -11,25 +12,35 @@ using std::string;
 
 class Aviao
 {
+	
+	
 public:
-	Aviao();
+	Aviao(int = 0, float = 0, float = 0, const string & = "", bool = "");
+	
+	
+	
 	~Aviao();
 	
 	
-	
+	void acelerar();
 	void decolar();
+	void pousar ();
+	void ligarmotores ();
+	
+	
+	
+	
+	
 	
 private:
 
 	int tamanho;
-	int anofabricacao;
-	int anomodelo;
 	float velocidade;
-	float potencia;
-	float autonomia;
-	string marca;
+	float velocidadeat;
 	string modelo;
-
+	bool condvoo;
+	
+	
 };
 
 #endif // AVIAO_H
