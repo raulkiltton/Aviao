@@ -19,20 +19,47 @@ Aviao::~Aviao()
 	
 	velocidade >= 250 ? condvoo = true : velocidade = velocidade; 
 		
+		
 	
 }
 
 
-	void Aviao::ligarmotores ()
+	void Aviao::darpartida ()
+{
 	
+
+	
+	
+	
+}
 
 
 	void Aviao::decolar()
-	{
+{
 		
+	velocidade >= 300? cout << "Aviao decolando." : velocidade = velocidade;	
 		
-		cout<< "A velocidade é:"<<velocidade<<'\n';	
 		
 		
 
-	}
+}
+
+	void Aviao::acelerar()
+{
+	
+	
+	
+	
+	
+}
+
+	void Aviao::pousar()
+{
+	
+	
+	
+	
+	
+	
+}
+	
